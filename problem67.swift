@@ -3,7 +3,6 @@
 import Foundation
 
 let text = try! String(contentsOf: URL(string: "https://projecteuler.net/project/resources/p067_triangle.txt")!)
-print(text)
 var triangle = text
     .components(separatedBy: "\n")
     .filter { !$0.isEmpty }
