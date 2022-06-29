@@ -2,8 +2,6 @@
 
 import Foundation
 
-var globalFactors: [Int: Set<Int>] = [:]
-
 let primes: Set<Int> = {
     let limit = 999999
     var primes: Set<Int> = .init(2...limit)
