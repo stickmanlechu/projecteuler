@@ -1,4 +1,4 @@
-// https://projecteuler.net/problem=69
+// https://projecteuler.net/problem=70
 
 import Foundation
 
